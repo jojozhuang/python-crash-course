@@ -31,6 +31,7 @@ print(bicycles[0].title())
 # Specialized
 print(bicycles[3].title())
 
+# Using f-strings to create a message with the first bicycle's name capitalized
 message = f"My first bicycle was a {bicycles[0].title()}."
 
 # My first bicycle was a Trek.
